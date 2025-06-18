@@ -27,7 +27,7 @@ namespace WebBus
 
         private async void StartColorListener()
         {
-            string connectionString = "Endpoint=sb://webbus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=...";
+            string connectionString = "Endpoint=sb://webbus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=aSWenqtoKZBRTcm3CLrSrSKxnDWpa/MOZ+ASbACt5nM=";
             string topicName = "bg-color";
             string subscriptionName = "bg-color-sub";
 
