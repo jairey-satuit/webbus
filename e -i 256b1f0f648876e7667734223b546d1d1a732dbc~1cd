@@ -1,0 +1,36 @@
+[33mcommit ed6b7de20b7930c7c9f1c4c324cbc293216b66c4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: jairey <jon.airey@tier1fin.com>
+Date:   Wed Jun 18 09:49:47 2025 -0400
+
+    subscribe to servicebus remove sec
+
+[33mcommit 256b1f0f648876e7667734223b546d1d1a732dbc[m
+Author: jairey <jon.airey@tier1fin.com>
+Date:   Wed Jun 18 09:48:20 2025 -0400
+
+    subscribe to servicebus
+
+[33mcommit c3f7d86dedc0300486c26d8fc781620af2044bcb[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 47ac5e8 99d0fd5
+Author: jairey <jon.airey@tier1fin.com>
+Date:   Wed Jun 18 09:32:02 2025 -0400
+
+    Merge branch 'main' of https://github.com/jairey-satuit/webbus
+
+[33mcommit 47ac5e8f88ce00c7bc1c8f989a0e377e2c91beed[m
+Author: jairey <jon.airey@tier1fin.com>
+Date:   Wed Jun 18 09:31:27 2025 -0400
+
+    adding bg-color to application state
+
+[33mcommit 99d0fd53b76d4d654d5b1fece1c6f076d0158592[m
+Author: jairey-satuit <jairey@satuitcrm.com>
+Date:   Wed Jun 18 09:20:45 2025 -0400
+
+    Add or update the Azure App Service build and deployment workflow config
+
+[33mcommit 19ac4d3ef9fdd76e568b0021ea2871cf954437c0[m
+Author: jairey <jon.airey@tier1fin.com>
+Date:   Wed Jun 18 09:06:49 2025 -0400
+
+    first commit
