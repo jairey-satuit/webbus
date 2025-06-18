@@ -37,17 +37,18 @@ namespace WebBus
             _processor.ProcessMessageAsync += async args =>
             {
                 Application["BackgroundColor"] = "#FF0000";
-                //string colorHex = args.Message.Body.ToString();
-                //if (System.Text.RegularExpressions.Regex.IsMatch(colorHex, "^#[0-9a-fA-F]{6}$"))
-                //{
-                //    Application["BackgroundColor"] = colorHex;
-                //}
+                string colorHex = args.Message.Body.ToString();
+                if (System.Text.RegularExpressions.Regex.IsMatch(colorHex, "^#[0-9a-fA-F]{6}$"))
+                {
+                    Application["BackgroundColor"] = colorHex;
+                }
 
-                //await args.CompleteMessageAsync(args.Message);
+                await args.CompleteMessageAsync(args.Message);
             };
 
             _processor.ProcessErrorAsync += async args =>
             {
+                Console.WriteLine(args);
                 // Optional: Log or handle errors
             };
 
