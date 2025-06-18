@@ -46,10 +46,10 @@ namespace WebBus
                 //await args.CompleteMessageAsync(args.Message);
             };
 
-            //_processor.ProcessErrorAsync += async args =>
-            //{
-            //    // Optional: Log or handle errors
-            //};
+            _processor.ProcessErrorAsync += async args =>
+            {
+                // Optional: Log or handle errors
+            };
 
             await _processor.StartProcessingAsync();
         }
